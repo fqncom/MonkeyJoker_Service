@@ -1,0 +1,19 @@
+how to init your develop environment
+
+1.各客户端配置各自的本地开发环境。
+2.配置git环境，具体内容google：how to install git 
+3.clone远程仓库到本地开发目录（workspace），
+    git命令：
+        WEB: git clone https://github.com/fqncom/MonkeyJoker.git
+        Android: git clone https://github.com/fqncom/MonkeyJoker_Android.git
+        IOS: git clone https://github.com/fqncom/MonkeyJoker_IOS.git
+    各个客户端添加自己的gitignore文件
+4.本地分支切换到develop分支，
+    git命令：
+        git checkout develop
+5.在git目录下添加项目文件，开始开发吧。
+6.添加完文件提交代码
+    git命令：
+        暂存：git add .
+        提交：git commit －m 'commit message'
+        推送：git push
